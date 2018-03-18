@@ -5,6 +5,7 @@
  * Date: 2018/3/18
  * Time: 上午10:37
  */
+// 输入两个链表，找出它们的第一个公共结点。
 function FindFirstCommonNode($pHead1, $pHead2)
 {
     if ($pHead1 == null || $pHead2 == null) {
