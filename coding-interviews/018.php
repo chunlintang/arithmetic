@@ -6,6 +6,7 @@
  * Time: 上午10:49
  */
 // 统计一个数字在排序数组中出现的次数。
+
 function GetNumberOfK($data, $k)
 {
     $list = array_count_values($data);
