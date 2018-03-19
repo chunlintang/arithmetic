@@ -5,9 +5,9 @@
  * Date: 2018/3/17
  * Time: 下午9:15
  */
-/**
- * 反转二叉树，二叉树镜像
- */
+
+//反转二叉树，二叉树镜像
+
 function reverseTree(&$root)
 {
     if (is_null($root)) {
