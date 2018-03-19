@@ -5,6 +5,7 @@
  * Date: 2018/3/18
  * Time: 上午10:15
  */
+// 最小的k个数
 function GetLeastNumbers_Solution($input, $k)
 {
     sort($input);
