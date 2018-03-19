@@ -6,6 +6,7 @@
  * Time: 上午10:56
  */
 // 求二叉树的深度
+
 function treeDepth($root)
 {
     if ($root == null) {
