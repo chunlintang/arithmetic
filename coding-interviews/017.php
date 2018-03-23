@@ -26,7 +26,7 @@ function FindFirstCommonNode($pHead1, $pHead2)
         $pNode1 = array_pop($arr1);
         $pNode2 = array_pop($arr2);
         if ($pNode1->val == $pNode2->val) {
-            $firstCommon = $pHead1;
+            $firstCommon = $pNode1;
         } else {
             break;
         }
