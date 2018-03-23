@@ -22,6 +22,7 @@ function FindFirstCommonNode($pHead1, $pHead2)
         $pHead2 = $pHead2->next;
     }
     $firstCommon = null;
+    
     while (!empty($arr1) && !empty($arr2)) {
         $pNode1 = array_pop($arr1);
         $pNode2 = array_pop($arr2);
