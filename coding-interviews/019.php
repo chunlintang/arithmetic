@@ -14,5 +14,5 @@ function treeDepth($root)
     }
     $l = treeDepth($root->left);
     $r = treeDepth($root->right);
-    return $l > $l ? $l + 1 : $r + 1;
+    return $l > $r ? $l + 1 : $r + 1;
 }
